@@ -1,0 +1,13 @@
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+/node_modules
+/public/hot
+/public/storage
+.env
+npm-debug.log
+/nbproject

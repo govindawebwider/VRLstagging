@@ -1,0 +1,55 @@
+<?php
+/**
+ * @package Resources/Lang/En/Messages
+ *
+ * @author Azim Khan <azim@surmountsoft.in>
+ *
+ * @copyright 2018 SurmountSoft Pvt. Ltd. All rights reserved.
+ */
+return [
+    'required_email_password' => 'Email and password are required',
+    'inactive_account' => 'Account is not active',
+    'invalid_credentials' => 'Invalid credentials',
+    'unauthorized_access' => 'Unauthorized Access',
+    'password_updated_email' => 'Password updated, please check your email',
+    'email_does_not_exist' => 'Email does not exists',
+    'reset_your_account_password' => 'Reset your Account Password',
+    'follow_link_to_reset_password' => 'Please follow the link below to reset password',
+    'click_btn_to_reset_password' => 'Click the button below to reset your password.',
+    'vrl_forgot_password' => 'VRL | Forgot Password',
+    'copy_right_vrl' => '© 2017 Video Request Line',
+    'artist_not_active_or_found' => 'Artist not found or deactivated',
+    'request_submitted_successfully' => 'Your request have been submitted successfully',
+    'video_requested_successfully' => 'Video requested successfully',
+    'video_confirmation_request' => 'Video confirmation request',
+    'video_duration_error' => 'Video duration must be above 15 seconds',
+    'download_requested_video' => 'Please download Your requested Video',
+    'artist_uploaded_video' => 'Artist Uploaded Video For User',
+    'video_uploaded_successfully' => 'Your video have been uploaded successfully',
+    'error_uploading_file' => 'Error in Video Uploading',
+    'max_file_size' => 'Maximum file upload size is of 2MB',
+    'mp4_allowed' => 'Only MP4 files are allowed',
+    'sender_receiver_email_error' => 'Sender and Recipient email address can\'t be same',
+    'use_valid_user_name' => 'Use valid User name (as xyz or xyz1)',
+    'required_recipient_name' => 'Recipient name field is required',
+    'required_recipient_email' => 'Recipient email field is required',
+    'invalid_recipient_email' => 'Invalid recipient email',
+    'person_message' => 'Personalized message field is required',
+    'invalid_delivery_date' => 'Delivery date is not valid',
+    'sender_email_registered_as_artist' => 'Sender email already registered as an Artist',
+    'recipient_email_registered_as_artist' => 'Recipient email already registered as an Artist',
+    'report_success' => 'Report send successfully',
+    'report_error' => 'Error in report submission',
+    'click_to_download' => ' Click here to Download',
+    'request_approved_by_artist' => 'Your request have been approved successfully by the Artist',
+    'request_rejected_by_artist' => 'Request have been rejected',
+    'invalid_password' => 'Invalid Password',
+    'age_must_be_18'  =>  'Age must be 18 or above',
+    'max_login_exceeded'  =>  'Max login session limit is exceeded',
+    'error_uploading_file' => 'Error uploading file',
+    'can_not_update_bank_detail' => 'You can not update because your account is created!',
+    'goto_edit_profile' => 'Please go to edit profile option and fill zip code',
+    'reject_request' => 'Are you sure, do you want to reject this request?',
+    'img_size_400_400' => 'Image size must be 400 x 400 pixels.',
+    'update_share_percentage' => 'Update Share Percentage',
+];

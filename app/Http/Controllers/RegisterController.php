@@ -1,0 +1,1 @@
+<?phpnamespace App\Http\Controllers;use App\Http\Requests;use Illuminate\Http\Request;class RegisterController extends Controller{	public function get_register(Request $request){		return json_encode($request->profile);	}}

@@ -1,0 +1,50 @@
+[09/05/2014 3:12 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Fri, 05 Sep 2014 08:12:19 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=-UBkxmik8pWx3MUb7wRrdl-Kp48EVWRoUPCGNy-Hm87_YyXRGhEs-r_1RenG8NLrgWPrj1wKjZLf0L7Ac6_YO_ypSG05gpDqMPGT4FpLTkyI72ljcHskps-etb_RWkgTRce9CgT-Z4oHzA4I-3ClLA-wvoxNTMQvYgnIgZlDT-iFI8Gf9hJ1Xz8wx6uojWMLo07QEkKj3ZD1lxX5XhDQGLxpWNle49v3kwYU2QJEhc-wksB1TFtEp1k-343kMz0KoAm8rfah7aq50xulGy8ZPviNkkT8dIuUtdzQAMe6TgXNy7JYqo5w1G2eWJL1UPiGZ_QzOGczPBoiu6YhgbnWFpYzJ4dKQtMeRU8clLZ7zJ0B2qFkd4wuonymXSICmKOe-TiAbSzvPJhBDIrbi9yTYh1LZr0LHnehBA8ps8Q6uBLoT5X8j6LzsLq8q0C; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 02-Sep-2024 08:12:19 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 04-Sep-2016 08:12:19 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1409904738844719; path=/; expires=Sun, 28-Aug-44 08:12:18 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1651509588; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.48.1409904738835263; path=/; expires=Sun, 28-Aug-44 08:12:18 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Fri, 05-Sep-2014 08:42:19 GMT; path=/; secure
+
+INVALID
+
+[09/05/2014 3:13 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+
+[09/05/2014 3:14 AM] - FAIL: IPN Validation Failed.
+IPN POST Vars from Paypal:
+mc_gross=199.00, protection_eligibility=Ineligible, address_status=confirmed, payer_id=UQDBFGGLQ62XW, tax=0.00, address_street=1 Main St, payment_date=01:14:23 Sep 05, 2014 PDT, payment_status=Pending, charset=windows-1252, address_zip=95131, first_name=Satinath, address_country_code=US, address_name=Satinath Mondal's Test Store, notify_version=3.8, custom=, payer_status=verified, business=satinath@gmail.com, address_country=United States, address_city=San Jose, quantity=1, verify_sign=Axw.Hj4l1vtsjxPS8OcwZrs12fpPACHxtkYHGGEBcBnxVsv7zV5z5vt8, payer_email=satinath@skynetonline.info, txn_id=4PN4467273012702Y, payment_type=instant, payer_business_name=Satinath Mondal's Test Store, last_name=Mondal, address_state=CA, receiver_email=satinath@gmail.com, pending_reason=unilateral, txn_type=web_accept, item_name=Special Ocassions, mc_currency=USD, item_number=1, residence_country=US, test_ipn=1, handling_amount=0.00, transaction_subject=, payment_gross=199.00, shipping=0.00, ipn_track_id=73785a7070020, 
+IPN Response from Paypal Server:
+ HTTP/1.0 302 Found
+Location: https://www.sandbox.paypal.com
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+
+

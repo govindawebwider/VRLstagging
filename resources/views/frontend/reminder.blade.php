@@ -1,0 +1,1 @@
+<p>	Congratulations! </p>	<p>		You have been successfully registered on video request line as an Artist.			</p>
